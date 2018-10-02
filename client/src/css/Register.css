@@ -1,0 +1,13 @@
+.register-container {
+    background-color: white;
+    min-height: 400px;
+    
+}
+
+.register-form {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 50px;
+}

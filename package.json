@@ -1,0 +1,35 @@
+{
+  "name": "devsocial",
+  "version": "1.0.0",
+  "description": "Social network for dev",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Jade Bautista",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "gravatar": "^1.6.0",
+    "jsonwebtoken": "^8.2.1",
+    "lodash.isempty": "^4.4.0",
+    "mongoose": "^5.0.16",
+    "npm": "^6.0.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "to": "^0.2.9",
+    "update": "^0.7.4",
+    "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}

@@ -1,0 +1,18 @@
+.landing-container {
+    background-image: url("../img/lake.jpg");
+    height: 710px;
+}
+
+.landing-content {
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.landing-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
